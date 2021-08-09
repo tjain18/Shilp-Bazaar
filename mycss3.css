@@ -1,0 +1,360 @@
+body{
+    background-color: #b36666;
+    color: white;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    padding-top: 70px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header-small{
+    display: none;
+}
+.header{
+    z-index: 9;
+    background-color: #8f5318;
+}
+
+.header-large a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+.header a:hover{
+    text-decoration: underline #1e4b4c 3px;
+}
+.header img{
+    margin: 5px;
+    margin-left: 20px;
+    height: 60px;
+    width: auto;
+}
+.header_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+main{
+    height: 80vh;
+    width: 100%;
+}
+main .carousel-inner .carousel-item{
+    width: 100%;
+    height: 80vh;
+} 
+main .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100vh;
+}
+main button{
+    font-size: 80px;
+}
+
+
+.awards{
+    text-align: center;
+    background-color: #b36666;
+    padding: 30px;
+}
+.awards .carousel{
+    margin: 0 10%;
+}
+.awards .carousel-inner{
+    border-radius: 20px;
+    background-color: #5a0000;
+    padding: 30px;
+    text-align: center;
+}
+.awards .carousel-item{
+    height: 50vh;
+}
+.awards img{
+    height: 45vh;
+    padding: 10px;
+    background-color: white;
+    width: auto;
+}
+sup{
+    font-size: 10px;
+}
+.team{
+    padding-bottom: 20px;
+    background-color: #5a0000;
+}
+
+.team img{
+    width: 29%;
+    margin: 30px 10%;
+    border: white solid 5px;
+}
+hr{
+    color: rgb(73, 73, 73);
+}
+.feed{
+    padding: 30px 0;
+}
+
+.feed .feed_form{
+    text-align: center;
+}
+.feed .feed_form form input,textarea{
+    width: 30%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border: black solid 1px;
+    border-left: #5a0000 solid 5px;
+    border-radius: 10px;
+}
+.feed .feed_form textarea{
+    height: 120px;
+    width: 30%;
+    outline: none;
+    border: black solid 1px;
+    border-left: #5a0000 solid 5px;
+    border-radius: 10px;
+}
+.feed .feed_form form button{
+    background-color: #5a0000;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    margin: 10px 0;
+}
+.feed .feed_form form button:hover{
+    background-color:#8d1919;
+    transition: 1s ease;
+}
+footer{
+    padding: 30px;
+}
+
+footer .doc{
+    text-align: center;
+    padding: 10px;
+    float: right;
+}
+footer .doc h3{
+    font-size: 25px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .doc a{
+    text-decoration: underline;
+    margin: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+footer .doc a:hover{
+    color: #e6cccc;
+    
+}
+footer .social{
+    text-align: center;
+    padding: 10px 0;
+}
+footer .social h3{
+    font-size: 25px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .social a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}
+footer .social a:hover{
+    color: #e6cccc;
+}
+footer .footer_logo{
+    float: left;
+}
+
+
+.company{
+    padding: 30px 10%;
+    text-align: center;
+    background-color: #b36666;
+    color: white;
+}
+
+.company h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+.contact_us{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px ;
+    background-color: #5a0000;
+}
+
+.contact_us_img{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+.contact_us .contact_container{
+    width: 40%;
+    margin:2% 5%;
+    padding: 30px 0;
+}
+.contact_us .contact_container a{
+    color:white;
+    text-decoration: none;
+}
+.contact_us .contact_container a:hover{
+    color:#e6cccc;
+}
+
+.product{
+    padding: 30px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#5a0000;
+}
+.product .product_container{
+    width: 23%;
+    margin: 1%;
+    display: block;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.product .product_container .product_desc{
+    margin: 10px 10%;
+    margin-bottom: 0;
+}
+.product .product_container .product_desc p{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+.product .product_container .product_img{
+    margin: 2.5%;
+}
+.product .product_container .product_img img{
+    width: 100%;
+}
+.product .product_container .product_rs{
+    width: 100%;
+}
+.product .product_container .product_rs p{
+    margin: 0 10%;
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 700px){
+    .header-small{
+        display: contents;
+    }
+    .header-large{
+        display: none;
+    }
+    .header-small button{
+        width: 50px;
+        height: 50px;
+        margin: 5px ;
+        border: none;
+        background-color: transparent;
+        float: right;
+        font-size: 35px;
+    }
+    .header-small img{
+        height: 50px;
+        width: auto;
+    }
+    .header .dropdown .dropdown-item{
+        width: 100%;
+        margin: 5px;
+    }
+    main{
+        height: 50vh;
+    }
+    main .carousel-inner .carousel-item{
+        height: 50vh;
+    }
+    main .carousel-inner .carousel-item img{
+        height: 50vh;
+    }
+
+
+    .awards{
+        padding: 30px 5px;
+    }
+    .awards .carousel{
+        margin: 0;
+    }
+    .awards .carousel-inner{
+        padding: 10px;
+    }
+    .awards .carousel-item{
+        height: 50vh;
+    }
+    .awards .carousel-item img{
+        height: 45vh;
+        padding: 2.5vh 5px;
+        width: auto;
+    }
+    .contact{
+        display: block
+    }
+    .contact .contact_container{
+        width: 90%;
+        margin: 5%;
+    }
+    .product{
+        padding: 30px 5%;
+        display: block;
+    }
+    .product .product_container{
+        width: 90%;
+        margin: 5%;
+        padding: 5px 0;
+    }
+    .product .product_container .product_img img{
+        width: 80%;
+    }
+    .feed .feed_form form input,textarea{
+        width: 90%;
+    }
+    .feed .feed_form form textarea{
+        width: 90%;
+    } 
+    .contact_us{
+        display: block;
+    }
+    .contact_us .contact_container{
+        width: 90%;
+        margin:2% 5%;
+        padding: 30px 0;
+    }
+    footer .footer_logo{
+        text-align: center;
+        float: none;
+    }
+    footer .doc{
+        float: none;
+    }
+    footer .doc a{
+        
+    }
+  }
